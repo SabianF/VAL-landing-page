@@ -1100,7 +1100,9 @@ About
 
 .about-us img {
   max-height: 480px;
+  max-width: 100%;
   width: auto;
+  height: auto;
 }
 
 .about-us ul, ol {
@@ -1126,6 +1128,15 @@ About
 
 .about-us .right-image {
   margin-left: 30px;
+}
+
+@media (max-width: 797px) {
+  .about-us .left-image {
+    margin: 0;
+  }
+  .about-us .right-image {
+    margin: 0;
+  }
 }
 
 .about-us .section-heading h2 {
