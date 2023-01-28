@@ -216,10 +216,10 @@ body {
 
 .main-blue-button a {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #fff;
   font-size: 18px;
   font-weight: 400;
-  color: #fff;
+  color: #000;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -228,10 +228,10 @@ body {
 
 .main-blue-button-hover a {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #fff;
   font-size: 18px;
   font-weight: 400;
-  color: #fff;
+  color: #000;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -240,12 +240,14 @@ body {
 }
 
 .main-blue-button-hover a:hover {
-  background-color: #ff695f;
+  background-color: #BFA050;
+  box-shadow: 2px 2px #000;
+  color: #fff;
 }
 
 .main-red-button a {
   display: inline-block;
-  background-color: #ff695f;
+  background-color: #BFA050;
   font-size: 18px;
   font-weight: 400;
   color: #fff;
@@ -257,7 +259,7 @@ body {
 
 .main-red-button-hover a {
   display: inline-block;
-  background-color: #ff695f;
+  background-color: #BFA050;
   font-size: 18px;
   font-weight: 400;
   color: #fff;
@@ -269,7 +271,9 @@ body {
 }
 
 .main-red-button-hover a:hover {
-  background-color: #03a4ed;
+  background-color: #fff;
+  box-shadow: 2px 2px #000;
+  color: #000;
 }
 
 .main-white-button a {
@@ -277,11 +281,17 @@ body {
   background-color: #fff;
   font-size: 18px;
   font-weight: 400;
-  color: #ff695f;
+  color: #000;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
+}
+
+.main-white-button a:hover {
+  background-color: #BFA050;
+  box-shadow: 2px 2px #000;
+  color: #fff;
 }
 
 /* 
@@ -306,11 +316,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #ff685f!important;
+  color: #BFA050!important;
 }
 
 .background-header .nav li a.active {
-  color: #ff685f!important;
+  color: #BFA050!important;
 }
 
 .header-area {
@@ -391,13 +401,15 @@ header
 
 .header-area .main-nav .nav li:last-child .main-red-button-hover a:hover,
 .background-header .main-nav .nav li:last-child .main-red-button-hover a:hover {
-  background-color: #03a4ed !important;
+  background-color: #fff !important;
+  color: #000 !important;
+  box-shadow: 2px 2px #000;
 }
 
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 18px;
   color: #2a2a2a;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
@@ -416,12 +428,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #ff685f!important;
+  color: #BFA050!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #ff685f!important;
+  color: #BFA050!important;
   opacity: 1;
 }
 
@@ -908,6 +920,7 @@ Banner Style
   font-size: 18px;
   color: #BFA050;
   margin-bottom: 15px;
+  text-shadow: 2px 2px 8px white;
 }
 
 .main-banner .item h2 {
@@ -1824,6 +1837,7 @@ Footer Style
 
 footer {
   margin-top: -50px;
+  margin-bottom: 128px;
   z-index: 2;
   position: relative;
 }
