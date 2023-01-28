@@ -87,6 +87,10 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
+ul, ol {
+  font-size: 24px;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -123,9 +127,12 @@ ul {
   margin-bottom: 0px;
 }
 
+
 p {
-  font-size: 15px;
+  font-size: 24px;
   line-height: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   color: #2a2a2a;
 }
 
@@ -176,7 +183,7 @@ body {
 }
 
 .section-heading h2 {
-  font-size: 30px;
+  font-size: 36px;
   text-transform: capitalize;
   color: #2a2a2a;
   font-weight: 700;
@@ -210,7 +217,7 @@ body {
 .main-blue-button a {
   display: inline-block;
   background-color: #03a4ed;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
@@ -222,7 +229,7 @@ body {
 .main-blue-button-hover a {
   display: inline-block;
   background-color: #03a4ed;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
@@ -239,7 +246,7 @@ body {
 .main-red-button a {
   display: inline-block;
   background-color: #ff695f;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
@@ -251,7 +258,7 @@ body {
 .main-red-button-hover a {
   display: inline-block;
   background-color: #ff695f;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
@@ -268,7 +275,7 @@ body {
 .main-white-button a {
   display: inline-block;
   background-color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #ff695f;
   text-transform: capitalize;
@@ -860,6 +867,7 @@ Banner Style
 */
 
 .main-banner {
+  background-image: linear-gradient(to right, white, transparent, transparent, transparent), url(../images/steps/0-hero.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -870,7 +878,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/baner-dec-left.png);
+  background-image: none;
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -881,7 +889,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/banner-right-image.png);
+  background-image: none;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -898,7 +906,7 @@ Banner Style
 .main-banner .item h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #ff695f;
+  color: #BFA050;
   margin-bottom: 15px;
 }
 
@@ -907,6 +915,7 @@ Banner Style
   font-weight: 700;
   color: #2a2a2a;
   line-height: 72px;
+  text-shadow: 2px 2px 2px rgba(255,255,255,0.5);
 }
 
 .main-banner .item h2 em {
@@ -1076,8 +1085,34 @@ About
   padding-top: 120px;
 }
 
+.about-us img {
+  max-height: 480px;
+  width: auto;
+}
+
+.about-us ul, ol {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.about-us .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us .container {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
 .about-us .left-image {
   margin-right: 30px;
+}
+
+.about-us .right-image {
+  margin-left: 30px;
 }
 
 .about-us .section-heading h2 {
