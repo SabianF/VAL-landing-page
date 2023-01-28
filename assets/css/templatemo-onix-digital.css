@@ -2035,6 +2035,10 @@ responsive
 }
 
 @media (max-width: 767px) {
+  img {
+    max-width: 320px;
+    height: auto;
+  }
   .main-banner .item .down-buttons {
     display: inline-block;
   }
