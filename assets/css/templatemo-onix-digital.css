@@ -2046,6 +2046,9 @@ responsive
 }
 
 @media (max-width: 767px) {
+  .down-buttons {
+    margin-bottom: 32px;
+  }
   .main-banner .item .down-buttons {
     display: inline-block;
   }
